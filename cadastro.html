@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="enome">Nome:</label>
+            <input type="text" id="enome" name="inome" placeholder="Digite seu nome">
+            <br>
+            <label>Data de nascimento:</label>
+            <input type="date" id="edate" name="idate">
+            <br>
+            <label for="eemail">E-mail:</label>
+            <input type="email" id="eemail" name="iemail" placeholder="Digite seu e-mail">
+            <br>
+            <label for="ecemail">Confirmar E-mail</label>
+            <input type="email" id="ecemail" name="icemail" placeholder="confirme seu e-mail">
+            <br>
+            <label>Sexo:</label>
+            <input type="radio" id="esexo" name="isexo">
+            <label>Masculino</label>
+            <br>
+            <input type="radio" id="esexo" name="isexo">
+            <label>Feminino</label>
+            <br>
+            <input type="radio" id="esexo" name="isexo">
+            <label>LGBTQIA+</label>
+            <br>
+            <label>Tipo:</label>
+            <input type="radio" id="etipo" name="itipo">
+            <label>Usuário</label>
+            <br>
+            <input type="radio" id="etipo" name="itipo">
+            <label>Administrador</label>
+            <br>
+            <label for="">Fale sobre você:</label>
+            <br>
+            <textarea class="msg" cols="35" rows="8" placeholder="Nos conte um pouco sobre você!"></textarea>
+            <br>
+            <input class="btn_submit" type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

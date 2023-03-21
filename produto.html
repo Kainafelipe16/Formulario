@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro 02</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Cadastro da Produto</legend>
+            <label>produto:</label>
+            <input type="text" id="atexto" nome="etexto" placeholder="Digite o nome do seu produto">
+            <br>
+            <label>Data de cadastro:</label>
+            <input type="date" id="adate" nome="edate">
+            <br>
+            <label>Categoria:</label>
+            <select id="acategoria" name="ecategoria">
+                <option value="L">Livros</option>
+                <option value="C">Cadernos</option>
+                <option value="A">Apostilas</option>
+            </select>
+            <br>
+            <label >Peso (Kg)</label>
+            <input type="number" id="anumber" name="enumber" placeholder="Digite o peso do produto">
+            <br>
+            <label>Situação</label>
+            <input type="radio" id="aradio" name="eradio" value="N">
+            <label>Novo</label>
+            <input type="radio" id="aradio" name="eradio" value="U">
+            <label>Usado</label>
+            <br>
+            <label>Descrição:</label>
+            <br>
+            <textarea class="msg" cols="35" rows="8" placeholder="Descreva o produto"></textarea>
+            <br>
+            <label>Avaliação (0-10)</label>
+            <input type="range" id="arange" name="erange" min="0" max="10" >
+            <br>
+            <input class="btn_submit" type="submit" value="Enviar">
+            <input class="btn_submit" type="submit" value="Limpar">
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
